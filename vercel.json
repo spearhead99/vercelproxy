@@ -2,23 +2,5 @@
   "version": 2,
   "env": {
     "ALLOWED_ORIGINS": "http://localhost:3000,https://btcc-trading-app-qnfona.abacusai.app"
-  },
-  "routes": [
-    {
-      "src": "/api/health",
-      "dest": "/api/health.js"
-    },
-    {
-      "src": "/api/check-ip",
-      "dest": "/api/check-ip.js"
-    },
-    {
-      "src": "/api/proxy/(.*)",
-      "dest": "/api/proxy.js?path=$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/api/index.js"
-    }
-  ]
+  }
 }
