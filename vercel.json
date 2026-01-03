@@ -9,6 +9,10 @@
       "dest": "/api/health.js"
     },
     {
+      "src": "/api/check-ip",
+      "dest": "/api/check-ip.js"
+    },
+    {
       "src": "/api/proxy/(.*)",
       "dest": "/api/proxy.js?path=$1"
     },
